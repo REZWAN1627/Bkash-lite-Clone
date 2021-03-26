@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item>
+        <shape android:shape="oval"
+            android:useLevel="false">
+            <size android:width="@dimen/_7sdp"
+                android:height="@dimen/_7sdp"/>
+            <stroke android:width="@dimen/_1sdp"
+                android:color="@color/Registration_login"/>
+        </shape>
+    </item>
+
+</layer-list>

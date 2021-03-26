@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "748204292126",
+    "project_id": "bkash-lite-clone",
+    "storage_bucket": "bkash-lite-clone.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:748204292126:android:e19c655b48420ab8f4960f",
+        "android_client_info": {
+          "package_name": "com.rex.bkashliteclone"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "748204292126-gf27smvl2dj84lo497lmd5oltr5sq6gp.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDhybV7lkx-WBg2B0gvvLZEacGUc8MrDLg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "748204292126-gf27smvl2dj84lo497lmd5oltr5sq6gp.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

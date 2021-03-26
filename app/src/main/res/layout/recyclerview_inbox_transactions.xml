@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="@dimen/_10sdp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/transaction_profile"
+            android:layout_width="@dimen/_50sdp"
+            android:layout_height="@dimen/_50sdp"
+            android:layout_gravity="center"
+            android:src="@drawable/ic_launcher_background" />
+
+        <Space
+            android:layout_width="@dimen/_7sdp"
+            android:layout_height="0dp" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/transaction_process"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Send Money"
+                android:textColor="@color/black"
+                android:textSize="@dimen/_13ssp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/transaction_owner_number"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="01738567818"
+                android:textSize="@dimen/_12ssp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/transaction_ID"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Transaction ID: 8kkyyrr8" />
+
+        </LinearLayout>
+
+        <Space
+            android:layout_width="@dimen/_20sdp"
+            android:layout_height="0dp" />
+
+        <LinearLayout
+            android:layout_gravity="right"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_gravity="right"
+                android:id="@+id/transaction_date"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="09:04pm 7 / 11 / 8"
+                android:textSize="@dimen/_12ssp" />
+
+            <Space
+                android:layout_width="0dp"
+                android:layout_height="@dimen/_15sdp" />
+
+            <TextView
+                android:layout_gravity="right"
+                android:id="@+id/transaction_amount"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="$ -100000"
+                android:textColor="@color/color_base_UI"
+                android:textStyle="bold" />
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,29 @@
+<resources>
+    <string name="app_name">Bkash lite Clone</string>
+
+    <string name="Logpage_text">for <b>Login / Registration</b></string>
+    <string name="Navigation_header"><b>bKash</b> Menu</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string name="confirm_to_mobile_recharge">Confirm to <b>Mobile Recharge</b></string>
+    <string name="title_activity_send_money_amount">SendMoneyAmount</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+    <string name="tab_text_1">Notifications</string>
+    <string name="tab_text_2">Transactions</string>
+    <string name="tab_text_3">Transaction History</string>
+    <string name="tab_text_4">Transaction Summary</string>
+
+    <string name="ChangeName">Your name Will appear on your bKash App home screen. Only you can see this</string>
+
+</resources>

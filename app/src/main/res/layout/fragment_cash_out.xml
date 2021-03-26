@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    tools:context=".MainUI.FragmentUI.CashOut.CashOut">
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:cardElevation="@dimen/_5sdp"
+        app:cardUseCompatPadding="true">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="@dimen/_10sdp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Agent"
+                android:textSize="@dimen/_12ssp"
+                android:textStyle="bold" />
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="@dimen/_10sdp">
+
+
+                <EditText
+                    android:inputType="number"
+                    android:maxLength="11"
+                    android:id="@+id/CashOut_Client_Number"
+                    android:layout_width="@dimen/_200sdp"
+                    android:layout_height="wrap_content"
+                    android:background="@android:color/transparent"
+                    android:gravity="center_horizontal"
+                    android:hint="Enter Agent Number or Name"
+                    android:textAlignment="center" />
+
+
+                <ImageView
+                    android:id="@+id/CashOut_Next_Button"
+                    android:layout_width="@dimen/_25ssp"
+                    android:layout_height="@dimen/_20ssp"
+                    android:layout_alignParentRight="true"
+                    android:layout_gravity="center"
+                    android:rotation="180"
+                    android:src="@drawable/ic_baseline_arrow_back_24" />
+
+            </RelativeLayout>
+
+
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+
+    <RelativeLayout
+        android:id="@+id/Tap_Scan"
+        android:layout_width="@dimen/_250sdp"
+        android:layout_height="@dimen/_30sdp"
+        android:layout_gravity="center"
+        android:background="@drawable/stroke_edit_text">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:text="Tap to Scan QR Code"
+            android:textColor="@color/color_base_UI" />
+    </RelativeLayout>
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:cardElevation="@dimen/_5sdp"
+        app:cardUseCompatPadding="true">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:padding="@dimen/_5sdp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="@dimen/_5sdp"
+                android:text="Saved Agent"
+                android:textSize="@dimen/_10ssp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/youhavenoagent"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:padding="@dimen/_5sdp"
+                android:text="You have no saved Agent" />
+
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:orientation="vertical"
+                android:padding="@dimen/_10sdp">
+
+                <TextView
+                    android:visibility="gone"
+                    android:id="@+id/inputNumber"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="Cash Out from\n01738567818"
+                    android:textSize="@dimen/_13ssp" />
+
+                <Space
+                    android:layout_width="wrap_content"
+                    android:layout_height="@dimen/_10sdp" />
+
+                <Button
+                    android:id="@+id/continue_tab"
+                    android:layout_width="@dimen/_150sdp"
+                    android:layout_height="@dimen/_40sdp"
+                    android:background="@drawable/color_tabto_continue_btn"
+                    android:text="Tab to continue"
+                    android:textColor="@color/color_base_UI" />
+
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+
+    </androidx.cardview.widget.CardView>
+
+</LinearLayout>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="purple_200">#FFBB86FC</color>
+    <color name="purple_500">#FF6200EE</color>
+    <color name="purple_700">#FF3700B3</color>
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="teal_700">#FF018786</color>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+
+    <color name="Registration_login">#E3106E</color>
+
+    <color name="color_log_reg_text">#444444</color>
+    <color name="color_bottom_navigation">#9E9E9E</color>
+
+    <color name="color_profile_solid">#F4D6E2</color>
+    <color name="color_profile_stroke">#F6EBF1</color>
+    <color name="color_add_in_profile">#DE136F</color>
+    <color name="color_base_UI">#E2136E</color>
+</resources>
